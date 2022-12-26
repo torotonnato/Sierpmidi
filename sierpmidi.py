@@ -97,7 +97,7 @@ if __name__ == "__main__":
 	                    epilog = 'Inspired by https://mastodon.social/@acb/109567809376185861')
 
 
-	parser.add_argument('-g', '--gaskets', default=100, help='number of gaskets to render')
+	parser.add_argument('-g', '--gaskets', type=int, default=100, help='number of gaskets to render')
 	parser.add_argument('-p', '--prob-flip', type=float, default=.5, help='probability of flipping a gasket')
 	parser.add_argument('-b', '--bpm', type=int, default=120)
 	parser.add_argument('-k', '--key', type=int, default=60, help='key as a midi note number')
