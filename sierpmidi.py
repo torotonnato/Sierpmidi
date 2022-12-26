@@ -92,18 +92,18 @@ def create_midi(args):
 
 if __name__ == "__main__":
 	parser = argparse.ArgumentParser(
-	                    prog = 'Sierpmidi',
+	                    prog = 'sierpmidi',
 	                    description = 'Renders a midi file using the Sierpinsky triangle.',
 	                    epilog = 'Inspired by https://mastodon.social/@acb/109567809376185861')
 
 
-	parser.add_argument('-g', '--gaskets', default=100, help='Number of gaskets to render')
-	parser.add_argument('-p', '--prob-flip', type=float, default=.5, help='Probability of flipping a gasket')
+	parser.add_argument('-g', '--gaskets', default=100, help='number of gaskets to render')
+	parser.add_argument('-p', '--prob-flip', type=float, default=.5, help='probability of flipping a gasket')
 	parser.add_argument('-b', '--bpm', type=int, default=120)
-	parser.add_argument('-k', '--key', type=int, default=60, help='Key as a midi note number')
+	parser.add_argument('-k', '--key', type=int, default=60, help='key as a midi note number')
 	parser.add_argument('-m', '--mode', default='ionian', choices=['ionian', 'dorian', 'phrygian', 'lydian', 'mixolydian', 'aeolian', 'locrian'])
 	parser.add_argument('-t', '--track-name', default='Sierpinsky')
-	parser.add_argument('filename', help='Output filename')
+	parser.add_argument('filename', help='output filename')
 	args = parser.parse_args()
 
 	create_midi(args)
