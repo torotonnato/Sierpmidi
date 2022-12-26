@@ -4,7 +4,7 @@ from midiutil.MidiFile import MIDIFile
 import argparse
 
 def sierpinsky_col(x, h, scale=1):
-	'''Computes a column of the Sierpinsky's triangle of height h'''
+	'''Computes a column of a Sierpinsky triangle of height h'''
 	'''and returns a list of the points' y-coord in that column. '''
 	'''Optional keyword argument:'''
 	'''scale: scale factor (mainly used to flip the sign of the ys)'''
@@ -27,7 +27,7 @@ modes = {
 }
 
 def degree_to_pitch(key, deg, mode=0):
-	'''Returns the pitch using the degree of a diatonic scale in a'''
+	'''Returns the pitch using the degree of the diatonic scale in a'''
 	'''given mode.'''
 
 	#Diatonic intervals: WHOLE_STEP = 2, HALF_STEP = 1
