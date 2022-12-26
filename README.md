@@ -7,7 +7,6 @@ Inspired by https://mastodon.social/@acb/109567809376185861
 
 pip install -r requirements.txt
 
-
 ## Usage
 
 
