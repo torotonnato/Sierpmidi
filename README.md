@@ -3,7 +3,13 @@ A short toy program to generate music using Sierpinsky's triangles.
 
 Inspired by https://mastodon.social/@acb/109567809376185861
 
----
+## Setup
+
+pip install -r requirements.txt
+
+
+## Usage
+
 
     usage: sierpmidi [-h] [-g GASKETS] [-p PROB_FLIP] [-b BPM] [-k KEY]
                      [-m {ionian,dorian,phrygian,lydian,mixolydian,aeolian,locrian}] [-t TRACK_NAME]
