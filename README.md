@@ -28,3 +28,6 @@ pip install -r requirements.txt
       -k KEY, --key KEY     key as a midi note number
       -m {ionian,dorian,phrygian,lydian,mixolydian,aeolian,locrian}, --mode {ionian,dorian,phrygian,lydian,mixolydian,aeolian,locrian}
       -t TRACK_NAME, --track-name TRACK_NAME
+
+[Sample - aeolian.mp3](./samples/aeolian.mp3)
+[Sample - dorian.mp3](./samples/dorian.mp3)
