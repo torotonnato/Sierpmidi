@@ -29,5 +29,8 @@ pip install -r requirements.txt
       -m {ionian,dorian,phrygian,lydian,mixolydian,aeolian,locrian}, --mode {ionian,dorian,phrygian,lydian,mixolydian,aeolian,locrian}
       -t TRACK_NAME, --track-name TRACK_NAME
 
-[Sample - aeolian.mp3](./samples/aeolian.mp3)
-[Sample - dorian.mp3](./samples/dorian.mp3)
+## Samples
+
+[aeolian.mp3](./samples/aeolian.mp3)
+
+[dorian.mp3](./samples/dorian.mp3)
